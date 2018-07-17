@@ -3,11 +3,6 @@ import csv
 from textblob import TextBlob
 
 #Configuration for the API
-consumer_key = 'eGbY1F6KF0LtKt4xt4ERhWfcW'
-consumer_secret = 'zsdwcOYSXjfqemMaaKRezczsu7CD1236GNeWrebeBLaH9gN7tJ'
-
-access_token = '730143916062838786-7BOU6W6wn7KCSotuEjfooQHul6zE9Za'
-access_token_secret = 'LJPa0KlI4LEA4njbbAUFtCHFdwpZYsnkHLAwDQQSuxSxQ'
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 
